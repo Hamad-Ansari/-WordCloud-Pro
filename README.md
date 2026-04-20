@@ -1,135 +1,99 @@
 <div align="center">
 
-# ☁️ WordCloud Pro
+# 🔮 **WordCloud Pro**
 
-### *Transform Text into Stunning Visual Art*
+**A Premium Streamlit Word Cloud Generator**  
+*Modern • Glassmorphism • Real-time • SaaS-grade UI*
 
-<!--citation:1-->](https://streamlit.io)
-<!--citation:2-->](https://www.python.org/)
-<!--citation:3-->](LICENSE)
-<!--citation:4-->](https://github.com/hammadzahid)
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-00C853?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Updated-April_2026-8B5CF6?style=for-the-badge)
+
+**Built by [Hammad Zahid](https://github.com/hammadzahid)**  
+*AI & Data Science Enthusiast | Python Developer*
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-8B5CF6?style=for-the-badge&logo=streamlit&logoColor=white)](https://wordcloud-pro.streamlit.app) 
+[![GitHub Stars](https://img.shields.io/github/stars/hammadzahid/wordcloud-pro?style=for-the-badge)](https://github.com/hammadzahid/wordcloud-pro/stargazers)
 
 </div>
 
----
-
-## 📖 **Table of Contents**
-
-- <!--citation:5-->
-- <!--citation:6-->
-- <!--citation:7-->
-- <!--citation:8-->
-- <!--citation:9-->
-- <!--citation:10-->
-- <!--citation:11-->
-- <!--citation:12-->
-- <!--citation:13-->
-- <!--citation:14-->
-- <!--citation:15-->
-- <!--citation:16-->
-- <!--citation:17-->
-- <!--citation:18-->
+<br>
 
 ---
 
-## 🌟 **About**
+## ✨ **Project Highlights**
 
-**WordCloud Pro** is a premium, production-ready Word Cloud Generator built with **Streamlit** and **Python**. Designed with a focus on **UI/UX excellence**, it features a modern **glassmorphism design**, smooth animations, and professional branding — perfect for data visualization enthusiasts and AI practitioners.
+Transform any text into **stunning, customizable word clouds** with a beautiful glassmorphism interface inspired by modern AI dashboards.
 
-This project showcases advanced Python skills including:
-- 📄 Multi-format document parsing (TXT, PDF, DOCX)
-- 🎨 Custom image processing with PIL & NumPy
-- 📊 Interactive data visualization with Plotly
-- 🎯 State management with Streamlit Session State
-- 💅 Professional CSS styling with glassmorphism effects
+Built with attention to every detail — smooth animations, real-time preview, animated analytics, and professional branding.
 
-**Built by Hammad Zahid** — AI & Data Science Enthusiast | Python Developer
+**Perfect for portfolios, data visualization lovers, content creators, and AI enthusiasts.**
 
 ---
 
-## ✨ **Features**
+## 📸 **Preview**
 
-### 🎨 **Core Functionality**
-- ✅ **Multi-Format Support**: Upload `.txt`, `.pdf`, and `.docx` files
-- ✅ **Dynamic Word Cloud Generation**: Real-time processing with customizable parameters
-- ✅ **8 Color Palettes**: Neon Purple, Neon Blue, Neon Green, Sunset Warm, Ocean Cool, Monochrome, Fire Gradient, Aurora Borealis
-- ✅ **5 Shape Masks**: Circle, Square, Rounded Square, Diamond, Star
-- ✅ **Background Themes**: Dark, Light, and Custom Color picker
+![Hero Section](screenshots/hero.png)
+![Word Cloud + Metrics](screenshots/wordcloud.png)
+![Analytics Dashboard](screenshots/chart.png)
 
-### 📊 **Data Insights**
-- ✅ **Metric Cards**: Total words, Unique words, Most frequent word, Least frequent word
-- ✅ **Frequency Chart**: Animated Plotly horizontal bar chart (top 20 words)
-- ✅ **Real-time Statistics**: Instant updates as you adjust settings
+> *Dark gradient theme with purple-blue neon accents, glassmorphism cards, hover animations, and Plotly charts.*
 
-### 💎 **UI/UX Excellence**
-- ✅ **Glassmorphism Design**: Modern blur effects, translucent cards, neon accents
-- ✅ **Smooth Animations**: Fade-in effects, hover transitions, staggered metric cards
-- ✅ **Dark Gradient Theme**: Purple → Blue professional AI dashboard aesthetic
-- ✅ **Responsive Layout**: Multi-column structure with containers
-- ✅ **Loading States**: Spinner animations during processing
-- ✅ **Success Notifications**: Styled alerts with emoji indicators
+---
 
-### 💾 **Export Options**
-- ✅ **PNG Download**: High-resolution image export
-- ✅ **JPG Download**: Compressed format option
-- ✅ **CSV Export**: Word frequency data for further analysis
+## 🚀 **Key Features**
+
+### **Core Functionality**
+- **Multi-format Support**: `.txt`, `.pdf`, `.docx` + direct text input
+- **Real-time Customization** with instant preview
+- **8 Premium Color Palettes** (Neon Purple, Aurora Borealis, Sunset Warm, Ocean Cool, etc.)
+- **Background Themes**: Dark, Light, or Custom Color Picker
+- **Shape Masks**: Circle, Square, Rounded Square, Diamond, Star
+
+### **Visualizations & Analytics**
+- High-resolution word cloud with **glow effect**
+- **Animated Plotly** horizontal bar chart (Top Word Frequencies)
+- **4 Glassmorphism Metric Cards**:
+  - Total Words
+  - Unique Words
+  - Most Frequent Word
+  - Rarest Word
+
+### **Premium UX/UI**
+- Modern **dark gradient + glassmorphism** design
+- Subtle animations, fade-ins, hover effects, and loading spinners
+- Fully responsive layout using Streamlit columns
+- Styled download buttons (PNG, JPG, Data)
+- Professional success/error notifications
 
 ---
 
 ## 🛠 **Tech Stack**
 
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| **Python** | 3.8+ | Core Programming Language |
-| **Streamlit** | 1.28+ | Web Application Framework |
-| **WordCloud** | 1.9+ | Word Cloud Generation |
-| **Pillow (PIL)** | 10.0+ | Image Processing |
-| **NumPy** | 1.24+ | Numerical Operations & Masks |
-| **Plotly** | 5.18+ | Interactive Charts |
-| **PyPDF2** | 3.0+ | PDF Text Extraction |
-| **python-docx** | 0.8.11+ | DOCX Text Extraction |
-| **Pandas** | 2.0+ | Data Manipulation |
-| **Re** | Built-in | Text Cleaning & Regex |
+- **Framework**: Streamlit
+- **Word Cloud Engine**: `wordcloud` + Pillow + NumPy
+- **Charts**: Plotly
+- **Document Processing**: PyPDF2, python-docx
+- **Styling**: Custom CSS (Glassmorphism, Gradients, Keyframe Animations)
+- **Architecture**: Modular (components + utils)
 
 ---
 
-## 📸 **Screenshots**
-
-<div align="center">
-
-### 🏠 Hero Section
-!<!--citation:19-->
-
-### 📁 Upload Interface
-!<!--citation:20-->
-
-### 🎨 Customization Panel
-!<!--citation:21-->
-
-### 📊 Analytics Dashboard
-!<!--citation:22-->
-
-</div>
-
-> **💡 Tip**: Run the app locally and capture real screenshots for your portfolio!
-
----
-
-## 🚀 **Quick Start**
+## 📥 **Installation & Setup**
 
 ```bash
-# 1️⃣ Clone the repository
+# Clone the repository
 git clone https://github.com/hammadzahid/wordcloud-pro.git
-
-# 2️⃣ Navigate to project directory
 cd wordcloud-pro
 
-# 3️⃣ Create virtual environment (recommended)
+# Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate        # On macOS/Linux
+# venv\Scripts\activate         # On Windows
 
-# 4️⃣ Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 5️⃣ Run the application
+# Run the application
 streamlit run app.py
