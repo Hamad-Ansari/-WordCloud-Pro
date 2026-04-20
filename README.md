@@ -97,3 +97,43 @@ pip install -r requirements.txt
 
 # Run the application
 streamlit run app.py
+```
+# 📁 Project Structure
+```
+wordcloud-pro/
+├── app.py                    # Main Streamlit application
+├── requirements.txt
+├── README.md
+├── sample.txt
+├── utils/
+│   ├── styling.py            # Custom CSS & color palettes
+│   ├── text_processor.py     # Text extraction & stats
+│   └── wordcloud_engine.py   # Word cloud generation logic
+├── components/
+│   ├── hero.py
+│   ├── sidebar.py
+│   ├── metrics.py
+│   ├── uploader.py
+│   ├── wordcloud_viz.py
+│   ├── frequency_chart.py
+│   └── download_panel.py
+└── screenshots/              # App preview images
+```
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the project
+2. Create your feature branch (git checkout -b feature/amazing-feature)
+3. Commit your changes (git commit -m 'Add amazing feature')
+4. Push to the branch (git push origin feature/amazing-feature)
+5. Open a Pull Request
+# 👨‍💻 About the Author
+Hammad Zahid
+AI & Data Science Enthusiast | Python Developer
+# Change these URLs:
+https://github.com/Hamad-Ansari  # Your repo URL
+https://www.linkedin.com/in/hammad-zahid-xyz/           # Your LinkedIn
+https://github.com/hammadzahid                # Your GitHub
+https://wordcloud-pro-hammadzahid.streamlit.app  # Your deployed app
+mrhammadzahid24@gmail.com # Your email
+
