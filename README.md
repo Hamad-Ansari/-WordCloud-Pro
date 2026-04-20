@@ -134,6 +134,6 @@ AI & Data Science Enthusiast | Python Developer
 https://github.com/Hamad-Ansari  # Your repo URL
 https://www.linkedin.com/in/hammad-zahid-xyz/           # Your LinkedIn
 https://github.com/hammadzahid                # Your GitHub
-https://wordcloud-pro-hammadzahid.streamlit.app  # Your deployed app
+https://3tylk7ykuaeca7jlvumjyb.streamlit.app/  # Your deployed app
 mrhammadzahid24@gmail.com # Your email
 
